@@ -1,0 +1,315 @@
+ [
+    {
+    "id": 1,
+    "question": "Welchen Sinn haben Schleifen in der Programmierung?",
+    "options": {
+      "A": "Sie ersetzen komplette Programme durch eine einzige Anweisung",
+      "B": "Sie dienen dazu, Anweisungen mehrfach auszuführen, ohne Code zu wiederholen",
+      "C": "Sie werden nur zur Fehlerbehandlung verwendet",
+      "D": "Sie speichern dauerhaft Daten im Speicher"
+    },
+    "correctAnswer": "B",
+    "explanation": "Schleifen ermöglichen es, bestimmte Codeabschnitte wiederholt auszuführen, ohne sie mehrfach schreiben zu müssen. Das macht Programme effizienter, kürzer und leichter wartbar."
+  },
+  {
+    "id": 2,
+    "question": "Wofür braucht man Schleifen in der Praxis?",
+    "options": {
+      "A": "Um Syntax-Fehler im Code zu finden",
+      "B": "Um Programme automatisch zu kompilieren",
+      "C": "Um z. B. Zahlenreihen auszugeben, Listen zu durchlaufen oder Berechnungen zu wiederholen",
+      "D": "Um Variablen im Karusselmodus dauerhaft zu wiederholen"
+    },
+    "correctAnswer": "C",
+    "explanation": "In der Praxis werden Schleifen überall dort eingesetzt, wo sich Aufgaben wiederholen. Dazu gehören das Arbeiten mit Listen, das wiederholte Abfragen von Eingaben oder das automatische Durchführen von Berechnungen."
+  },
+  {
+    "id": 3,
+    "question": "Ist eine Schleife ein Algorithmus?",
+    "options": {
+      "A": "Ja, weil Schleifen generell dazu lernen",
+      "B": "Nein, weil eine Schleife nur ein Baustein innerhalb eines Algorithmus ist",
+      "C": "Ja, weil Schleifen neue Informationen aufnehmen und integrieren",
+      "D": "Nein, weil Algorithmen nur aus mathematischen Formeln bestehen"
+    },
+    "correctAnswer": "B",
+    "explanation": "Eine Schleife ist nur ein Baustein innerhalb eines Algorithmus. Ein Algorithmus ist eine vollständige Schritt-für-Schritt-Lösung für ein Problem."
+  },
+  {
+    "id": 4,
+    "question": "Was bedeutet kopfgesteuerte Schleife?",
+    "options": {
+      "A": "Die Bedingung wird nach jeder Ausführung geprüft",
+      "B": "Die Schleife läuft immer genau einmal durch",
+      "C": "Die Bedingung wird vor der Ausführung geprüft",
+      "D": "Die Schleife wird nur bei Fehlern im Code gestartet"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bei einer kopfgesteuerten Schleife wird die Bedingung vor dem Schleifenblock geprüft. Ist sie falsch, wird der Block nicht ausgeführt."
+  },
+  {
+    "id": 5,
+    "question": "Was bedeutet fußgesteuerte Schleife?",
+    "options": {
+      "A": "Die Schleife beginnt am Ende",
+      "B": "Die Schleife läuft nie vollständig durch",
+      "C": "Keine Bedingung wird verwendet",
+      "D": "Die Bedingung wird nach der Ausführung geprüft"
+    },
+    "correctAnswer": "D",
+    "explanation": "Bei einer fußgesteuerten Schleife wird die Bedingung erst nach dem Durchlauf geprüft, daher wird der Block mindestens einmal ausgeführt."
+  },
+  {
+    "id": 6,
+    "question": "Was ist eine Zählschleife?",
+    "options": {
+      "A": "Eine endlose Schleife",
+      "B": "Nur für Zahlenarten",
+      "C": "Eine Schleife mit festem Zähler, die genau weiß, wie oft sie läuft",
+      "D": "Nur für mathematische Rechnungen"
+    },
+    "correctAnswer": "C",
+    "explanation": "Eine Zählschleife arbeitet mit einem festen Zähler und hat eine vorher bekannte Anzahl an Durchläufen."
+  },
+  {
+    "id": 7,
+    "question": "Welche dieser Schleifen ist kopfgesteuert?",
+    "options": {
+      "A": "do-while und do-later",
+      "B": "for, while und for each",
+      "C": "nur do-while ist kopfgesteuert",
+      "D": "keine Schleife"
+    },
+    "correctAnswer": "B",
+    "explanation": "Kopfgesteuerte Schleifen prüfen die Bedingung vor dem Schleifenblock, z. B. for und while."
+  },
+  {
+    "id": 8,
+    "question": "Welche Schleifen sind fußgesteuert?",
+    "options": {
+      "A": "for",
+      "B": "while",
+      "C": "do-while",
+      "D": "foreach"
+    },
+    "correctAnswer": "C",
+    "explanation": "Fußgesteuerte Schleifen prüfen die Bedingung nach dem Block. In Java ist das do-while."
+  },
+  {
+    "id": 9,
+    "question": "Welche Programmierlogik steht hinter Schleifen?",
+    "options": {
+      "A": "Auswahl",
+      "B": "Wiederholung",
+      "C": "Speicherung",
+      "D": "Ausgabe"
+    },
+    "correctAnswer": "B",
+    "explanation": "Schleifen basieren auf der Wiederholungslogik (Iteration)."
+  },
+  {
+"id": 10,
+"question": "Wie sieht eine Initialisierung aus?",
+"options": {
+"A": "int x;",
+"B": "x = 5;",
+"C": "int x = 5;",
+"D": "= int x 5"
+},
+"correctAnswer": "C",
+"explanation": "Eine Initialisierung bedeutet, dass eine Variable in einem Schritt angelegt und gleichzeitig mit einem Wert versehen wird. Deshalb besteht sie immer aus drei Teilen: Datentyp, Variablenname und Wert, verbunden durch das Gleichheitszeichen und abgeschlossen mit einem Semikolon: int x = 5;. Das Semikolon ist in Java zwingend notwendig, weil es das Ende einer Anweisung markiert – ohne Semikolon weiß Java nicht, wo der Befehl endet. Der Wert muss dabei nicht unbedingt eine Zahl sein, sondern hängt vom Datentyp ab: bei int ganze Zahlen, bei double Kommazahlen, bei boolean true/false, bei String Text und bei char einzelne Zeichen. Wichtig ist also: Der Wert muss zum Datentyp passen, und jede Initialisierung ist immer eine vollständige, abgeschlossene Anweisung."
+},
+{
+"id": 11,
+"question": "Welches aus der Auswahl ist eine korrekte Deklaration?",
+"options": {
+"A": "int x;",
+"B": "int x = 5;",
+"C": "x = 5;",
+"D": "5 = x"
+},
+"correctAnswer": "A",
+"explanation": "Eine Deklaration bedeutet, dass eine Variable nur angelegt wird, aber noch keinen Wert bekommt. Sie besteht deshalb ausschließlich aus Datentyp und Variablenname, also z. B. int x;. Das Semikolon ist notwendig, weil es in Java jede Anweisung abschließt und dem Compiler zeigt, dass der Befehl hier endet. Im Gegensatz zur Initialisierung steht hier noch kein Wert, weil die Variable zwar existiert, aber noch „leer“ ist. Ein Wert wird erst später durch eine Zuweisung oder direkt bei der Initialisierung vergeben. Wichtig ist außerdem: Der Datentyp (hier int) legt fest, welche Art von Daten später gespeichert werden dürfen, zum Beispiel ganze Zahlen."
+},
+{
+"id": 12,
+"question": "Wie wird der Wert einer Variable in Java gelesen?",
+"options": {
+"A": "vom Code zur Klasse",
+"B": "vom Datentyp zum Namen",
+"C": "vom Speicher zur Verwendung im Programm",
+"D": "von der Methode zur Ausgabe"
+},
+"correctAnswer": "C",
+"explanation": "Eine Variable ist wie ein kleiner Speicherplatz im Computer, in dem ein Wert abgelegt wird (z. B. eine Zahl oder ein Text). Wenn dieser Wert im Programm benutzt wird, holt Java ihn aus diesem Speicher heraus und verwendet ihn weiter, zum Beispiel in einer Rechnung oder Ausgabe. Wichtig ist: Die Variable wird nicht „neu gelesen“ oder umgebaut, sondern der bereits gespeicherte Wert wird einfach abgerufen. Das passiert automatisch im Hintergrund, sobald die Variable in einem Ausdruck steht (z. B. x + 2). Dabei spielt die Leserichtung keine feste Rolle – entscheidend ist nur, dass der Wert aus dem Speicher genommen und im Programm verwendet wird."
+},
+{
+"id": 13,
+"question": "Welches aus der Auswahl ist eine korrekte Variable?",
+"options": {
+"A": "int 5x;",
+"B": "int x = 5;",
+"C": "x = int 5;",
+"D": "System.out.println(x);"
+},
+"correctAnswer": "B",
+"explanation": "Eine Variable ist ein Speicherplatz im Programm, der einen Wert enthält. Damit eine Variable korrekt ist, muss sie mindestens einen Datentyp (z. B. int) und einen Namen (z. B. x) haben und darf optional direkt einen Wert zugewiesen bekommen. In Java ist int x = 5; eine vollständige und korrekte Variable, weil hier gleichzeitig eine Variable vom Typ int erstellt und mit dem Wert 5 initialisiert wird. Die anderen Antworten sind falsch: int 5x; ist ungültig, weil Variablennamen nicht mit einer Zahl beginnen dürfen. x = int 5; ist syntaktisch falsch. System.out.println(x); ist keine Variable, sondern eine Ausgabe-Anweisung."
+},
+{
+"id": 14,
+"question": "Welche Bausteine muss eine Variable aufweisen?",
+"options": {
+"A": "Zuweisungsoperator und Wert",
+"B": "Datentyp und Name",
+"C": "Bezeichnung und Semikolon",
+"D": "Klasse und Methode"
+},
+"correctAnswer": "B",
+"explanation": "Eine Variable benötigt mindestens einen Datentyp und einen Namen."
+},
+{
+  "id": 15,
+  "question": "Was aus der folgenden Auswahl ist keine Variable?",
+  "options": {
+    "A": "int x = 10;",
+    "B": "double preis = 3.99;",
+    "C": "String name = \"Frank\";",
+    "D": "System.out.println(x);"
+  },
+  "correctAnswer": "D",
+  "explanation": "Eine Variable ist ein benannter Speicherplatz, in dem ein Wert gespeichert wird. Dazu gehören immer eine Deklaration (Datentyp + Name) und oft direkt eine Initialisierung (Wertzuweisung), wie bei int x = 10;, double preis = 3.99; oder String name = \"Frank\";. System.out.println(x); ist dagegen keine Variable, sondern eine Anweisung zur Ausgabe. Damit wird der Wert einer Variable nur auf der Konsole angezeigt, aber keine neue Variable erstellt oder gespeichert."
+},
+{
+"id": 16,
+"question": "Was aus der folgenden Auswahl ist eine Deklaration?",
+"options": {
+"A": "int x = 5;",
+"B": "int x;",
+"C": "x = 5",
+"D": "5 = x"
+},
+"correctAnswer": "B",
+"explanation": "Eine Deklaration bedeutet, dass eine Variable im Programm nur angelegt wird, aber noch keinen Wert bekommt. Dafür braucht man in Java nur den Datentyp (z. B. int, String), der festlegt, welche Art von Daten gespeichert werden dürfen, und den Variablennamen. Der Wert fehlt hier noch bewusst, weil die Variable erst einmal nur reserviert wird. Erst später kann ihr durch eine Zuweisung oder Initialisierung ein Wert gegeben werden. Das Semikolon am Ende ist wichtig, weil es jede Anweisung in Java abschließt."
+},
+{
+"id": 17,
+"question": "Was aus der folgenden Auswahl ist eine Initialisierung?",
+"options": {
+"A": "int x",
+"B": "x = 5;",
+"C": "int x = 5;",
+"D": "x int 5"
+},
+"correctAnswer": "C",
+"explanation": "Eine Initialisierung bedeutet, dass eine Variable direkt beim Erstellen einen Wert bekommt. Sie besteht deshalb aus Datentyp, Variablenname und Wert in einem Schritt. In Java ist das wichtig, weil die Variable damit sofort einsatzbereit ist. Im Gegensatz dazu ist int x; nur eine Deklaration (ohne Wert) und x = 5; nur eine Zuweisung (Wert wird einer bereits existierenden Variable gegeben). Eine Initialisierung verbindet beide Schritte in einer einzigen Anweisung."
+},
+{
+"id": 18,
+"question": "Wie ist eine Initialisierung aufgebaut?",
+"options": {
+"A": "Name + Typ + Wert",
+"B": "Typ + Name + Wert",
+"C": "Variable + Wert + Semikolon",
+"D": "Klasse + Methode + Wert"
+},
+"correctAnswer": "B",
+"explanation": "Eine Initialisierung bedeutet, dass eine Variable direkt beim Erstellen einen Wert bekommt. Dafür ist in Java eine feste Reihenfolge vorgeschrieben: zuerst der Datentyp, dann der Variablenname und anschließend der Wert. Der Computer muss diese Reihenfolge kennen, damit er die Variable richtig anlegen und den passenden Speicherplatz reservieren kann. Beispiel: int alter = 18;"
+},
+{
+"id": 19,
+"question": "Welche Datentypen aus der Auswahl gibt es?",
+"options": {
+"A": "int, double, boolean, char, String",
+"B": "while, for, if, else",
+"C": "class, method, object, system",
+"D": "add, get, set, remove"
+},
+"correctAnswer": "A",
+"explanation": "Datentypen legen in Java fest, welche Art von Wert eine Variable speichern kann. Sie bestimmen also, ob es sich um eine ganze Zahl, eine Kommazahl, einen Wahrheitswert, ein einzelnes Zeichen oder einen Text handelt.\nDie wichtigsten Datentypen sind:\n • int → ganze Zahlen (z. B. 5, 10, -3)\n • double → Kommazahlen (z. B. 3.14, 2.5)\n • boolean → nur true oder false\n • char → ein einzelnes Zeichen (z. B. 'A')\n • String → eine Zeichenkette (z. B. \"Hallo\")"
+},
+{
+"id": 20,
+"question": "Was aus der folgenden Auswahl ist kein Datentyp?",
+"options": {
+"A": "int",
+"B": "double",
+"C": "System",
+"D": "boolean"
+},
+"correctAnswer": "C",
+"explanation": "System ist eine Klasse."
+},
+{
+"id": 21,
+"question": "Wie ist eine Methode aufgebaut?",
+"options": {
+"A": "Typ + Name + Parameter + Block",
+"B": "Die Methode erkennt man immer an “main”",
+"C": "Wert + Typ + Zuweisung",
+"D": "Die Methode beginnt immer am ersten Zuweisungsoperator"
+},
+"correctAnswer": "A",
+"explanation": "Eine Methode in Java ist ein Codeblock, der eine bestimmte Aufgabe ausführt. Sie ist immer nach einem festen Muster aufgebaut, damit der Computer weiß, was die Methode machen soll, wie sie heißt und welche Eingaben sie bekommen kann.\nAm Anfang steht der Rückgabetyp (z. B. void,int, String). Er sagt aus, ob die Methode etwas zurückgibt oder nicht. Danach folgt der Name der Methode, der beschreibt, was sie macht. Anschließend kommen in runden Klammern die Parameter, also Werte, die die Methode von außen bekommen kann. Zum Schluss steht der Methodenblock in geschweiften Klammern, in dem der eigentliche Code ausgeführt wird.\nZB: public int addiere(int a, int b) {\nint ergebnis = a + b;\nreturn ergebnis;\n}"
+},
+{
+"id": 22,
+"question": "Was aus der folgenden Auswahl ist eine Methode?",
+"options": {
+"A": "System.out.println(x);",
+"B": "public static void main(String[] args)",
+"C": "int x = 5;",
+"D": "Scanner sc = new Scanner(System.in);"
+},
+"correctAnswer": "B",
+"explanation": "Eine Methode erkennt man daran, dass sie einen Rückgabetyp, einen Namen und runde Klammern () hat. In den Klammern können Parameter stehen.\npublic static void main(String[] args) ist eine Methode, weil sie genau diesen Aufbau hat und der Startpunkt eines Java-Programms ist.\nDie eckigen Klammern [] gehören hier nicht zur Methode selbst, sondern zum Datentyp der Parameter."
+},
+{
+"id": 23,
+"question": "Was aus dieser Auflistung ist keine Methode?",
+"options": {
+"A": "System.out.println(\"Hallo\");",
+"B": "public static void main(String[] args)",
+"C": "void start()",
+"D": "int add(int a, int b)"
+},
+"correctAnswer": "A",
+"explanation": "Eine Methode ist ein Codeblock mit Namen und runden Klammern (), der eine bestimmte Aufgabe ausführt. Du erkennst eine Methodendefinition typischerweise an folgenden Merkmalen:\n • Sie hat einen Rückgabetyp (z. B. void, int)\n • Sie hat einen Namen (z. B. start, add)\n • Sie besitzt runde Klammern (), in denen Parameter stehen können\n • Optional können Zugriffsmodifizierer davor stehen (z. B. public, private, static)"
+},
+{
+"id": 24,
+"question": "Welches aus der folgenden Auswahl ist der Startpunkt eines Programms?",
+"options": {
+"A": "Klasse",
+"B": "Variable",
+"C": "main-Methode",
+"D": "Objekt"
+},
+"correctAnswer": "C",
+"explanation": "Java startet immer in der main-Methode."
+},
+{
+"id": 25,
+"question": "Wo muss ein Scanner eingefügt werden, bevor man ihn benutzen kann?",
+"options": {
+"A": "direkt vor der Main-Methode",
+"B": "Als Import ganz oben in der Datei außerhalb der Klasse",
+"C": "immer bevor eine Eingabe von der Konsole stattfindet",
+"D": "er wird nach der Initialisierung importiert"
+},
+"correctAnswer": "B",
+"explanation": "Bevor der Scannerin Java verwendet werden kann, muss er zuerst importiert werden. Das bedeutet, Java wird darüber informiert, dass die Scanner-Klasse aus der Bibliothek java.util benutzt werden soll. Der import steht über der Klasse, aber nicht “im Sinne von innerhalb der Klasse”, sondern außerhalb davon in der Datei. Imports stehen ganz oben in der Datei, die Klasse darunter beginnt den eigentlichen Programmcode."
+},
+{
+"id": 26,
+"question": "Welches aus der folgenden Auswahl ist der korrekte Import des Scanners?",
+"options": {
+"A": "import Scanner.java;",
+"B": "import java.util.Scanner;",
+"C": "Scanner import util.java;",
+"D": "java.import.util Scanner;"
+},
+"correctAnswer": "B",
+"explanation": " • import sagt Java, dass eine externe Klasse benutzt wird\n • java.util ist der Ordner (Package), in dem der Scanner liegt\n • Scanner ist die konkrete Klasse für Eingaben\nNur diese genaue Schreibweise funktioniert, weil Java sehr streng mit der Syntax ist."
+}
+
+]
